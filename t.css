@@ -1,0 +1,228 @@
+@media ( max-width : 1000px ) {
+
+    /* <section class="shop-header"> */
+    .shop-header {
+        background: #ffffff;
+        padding-bottom: 150px;
+    }
+
+    .menulist a {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.1;
+        padding: 4px 12px 8px;
+    }
+
+    .banner p {
+        width: 360px;
+        height: 40px;
+        font-weight: 600;
+        font-size: 25px;
+        font-family: "Instrument Serif";
+        font-style: italic;
+        background: #908580;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* <section class="grid"> */
+    .shop-grid {
+        background: linear-gradient(
+            to bottom,
+            #ffffff 0%,
+            rgb(235, 233, 228) 50%,
+            rgb(235, 233, 228) 100%
+        );
+    }
+
+    /* <section class="tablet"> */
+    section.tablet {
+        overflow: hidden;
+        background: rgb(235, 233, 228);
+        display: block;
+        position: relative;
+        z-index: 1;
+        padding: 60px 50px;
+    }
+
+    .tablet-swiper {
+        width: 100%;
+        overflow: visible;
+        position: relative;
+    }
+
+    .swiper-slide {
+        height: auto;
+    }
+
+    .tablet-swiper-img {
+        width: 100%;
+        aspect-ratio: 3 / 4;
+        overflow: hidden;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    .tablet-swiper-img img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .tablet .ital {
+        font-style: italic;
+    }
+
+
+    .tablet-swiper-prev,
+    .tablet-swiper-next {
+        width: 100px;
+        height: 100px;
+        background: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        z-index: 10;
+        opacity: 0;
+        padding: 8px;
+        cursor: pointer;
+        transform: translateY(-50%);
+        transition: opacity .3s ease;
+    }
+
+    .tablet-swiper:hover .tablet-swiper-prev,
+    .tablet-swiper:hover .tablet-swiper-next {
+        opacity: 1;
+    }
+
+    .tablet-swiper-prev {
+        left: 12px;
+    }
+
+    .tablet-swiper-next {
+        right: 12px;
+    }
+
+    .tablet-swiper-prev img,
+    .tablet-swiper-next img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+    /* div class="aveia" */
+    div.aveia {
+        width: 100%;
+        height: 100%;
+        background: rgb(235, 233, 228);
+        text-align: center;
+        display: block;
+        position: sticky;
+        top: 0;
+        z-index: 0;
+        padding: 15px;
+    }
+
+    .aveia a {
+        border-radius: 8px;
+        overflow: hidden;
+        display: block;
+    }
+
+    .aveia span {
+        font-size: 76px;
+        color: rgb(235, 233, 228);
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+        transition: color .5s ease;
+    }
+
+    .aveia span:hover {
+        color: #292929;
+    }
+
+    .aveia img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: -4px;
+    }
+
+
+    /* section class="cafecito" */
+    section.cafecito {
+        overflow: hidden;
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cafecito-bg {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        will-change: transform;
+    }
+
+    .cafecito-video {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .cafecito-inner {
+        color: rgb(235, 233, 228);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 3;
+        padding: 120px 0;
+        will-change: transform;
+    }
+
+    .cafecito-inner p {
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    .cafecito-inner h2 {
+        font-weight: 500;
+        font-size: 76px;
+        font-style: italic;
+    }
+
+    .cafecito-inner a {
+        background:  rgb(235, 233, 228);
+        color: #292929;
+        border-radius: 30px;
+        display: block;
+        margin-top: 20px;
+        padding: 8px 40px;
+    }
+
+    .cafecito-inner a span {
+        display: block;
+        padding-bottom: 3px;
+    }
+
+
+    .last .text {
+        display: none;
+    }
+
+
+}
